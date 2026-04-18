@@ -123,15 +123,10 @@ int main() {
     //     printf("Cidade 1 tem maior população.\n");
     // } else {
     //     printf("Cidade 2 tem maior população.\n");
-    // }
-
-    //Comparação (População)
-    printf("\nComparação de Cartas:\n");
+    // }printf("\nComparação de Cartas:\n");
 
     printf("Carta1 - %s (%s): %lu\n",Nome1, Estado1, Populacao1);
-    printf("Carta1 - %s (%s): %lu\n",Nome2, Estado2, Populacao2);
-
-
+    printf("Carta2 - %s (%s): %lu\n",Nome2, Estado2, Populacao2);
 
     if (Populacao1 > Populacao2){
         printf("Resultado: Carta 1 (%s) venceu!\n",Nome1);
